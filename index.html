@@ -1,10 +1,139 @@
 <!DOCTYPE html>
-<html> 
-  <head>
-    <meta charset="UTF-8"> 
-    <title>Hello World</title>
-  </head> 
-  <body> 
-    <h1>Hello World</h1> 
-  </body> 
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gustavo Fonseca</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: monospace;
+    }
+
+    .block {
+      display: block;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    a {
+      color: black;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    .icon {
+      position: relative;
+      top: 2px;
+    }
+
+    #main>* {
+      margin: 0 auto;
+    }
+
+    nav {
+      max-width: 50rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-color: #eee;
+    }
+
+    nav #home {
+      font-size: 1rem;
+      text-decoration: none;
+    }
+
+    .content {
+      padding: 4rem 0;
+      max-width: 35rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #bio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    #avatar {
+      width: 9.5rem;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    #social {
+      max-width: 25rem;
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+    }
+
+    #social>span {
+      margin: 1rem;
+    }
+
+    footer {
+      max-width: 50rem;
+      padding: 1rem;
+      color: #81899D;
+      font-size: 0.8rem;
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <nav>
+      <a id="home" href="/">GMF</a>
+      <a href="">CV</a>
+    </nav>
+    <section class="content">
+      <section id="bio">
+        <img id="avatar" src="static/avatar.jpeg" alt="">
+        <h1>Gustavo Fonseca</h1>
+        <span class="block text-center">
+          Lorem ipsum mattis aenean primis tempus vulputate a eros, imperdiet torquent ipsum malesuada scelerisque nulla
+          massa platea fames, senectus vitae sodales est viverra litora vivamus. eget dictumst tristique duis molestie a
+          eget taciti aliquam sociosqu.
+        </span>
+      </section>
+      <section id="social">
+        <span>
+          <img class="icon" src="static/stack-overflow.png">
+          <a href="">Stack Overflow</a>
+        </span>
+        <span>
+          <img class="icon" src="static/github.png">
+          <a href="">Github</a>
+        </span>
+        <span>
+          <img class="icon" src="static/kaggle.png">
+          <a href="">Kaggle</a>
+        </span>
+
+      </section>
+
+    </section>
+
+    <footer class="text-center">
+      <span>
+        Hosted on GitHub.
+
+      </span>
+    </footer>
+  </div>
+</body>
+
 </html>
