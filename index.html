@@ -43,10 +43,10 @@
       border-bottom-style: solid;
       border-bottom-width: 1px;
       border-color: #eee;
+      font-size: 1rem;
     }
 
     nav #home {
-      font-size: 1rem;
       text-decoration: none;
     }
 
@@ -63,6 +63,10 @@
       flex-direction: column;
       align-items: center;
       padding: 1rem;
+    }
+
+    #bio .description {
+      line-height: 1.6;
     }
 
     #avatar {
@@ -97,13 +101,13 @@
   <div id="main">
     <nav>
       <a id="home" href="/">GMF</a>
-      <a href="">CV</a>
+      <a href="static/cv.pdf">CV</a>
     </nav>
     <section class="content">
       <section id="bio">
         <img id="avatar" src="static/avatar.jpeg" alt="">
         <h1>Gustavo Fonseca</h1>
-        <span class="block text-center">
+        <span class="block text-center description">
           Lorem ipsum mattis aenean primis tempus vulputate a eros, imperdiet torquent ipsum malesuada scelerisque nulla
           massa platea fames, senectus vitae sodales est viverra litora vivamus. eget dictumst tristique duis molestie a
           eget taciti aliquam sociosqu.
@@ -112,15 +116,16 @@
       <section id="social">
         <span>
           <img class="icon" src="static/stack-overflow.png">
-          <a href="">Stack Overflow</a>
+          <a href="https://stackoverflow.com/users/3245229/gustavo-fonseca?tab=profile" target="_blank">Stack
+            Overflow</a>
         </span>
         <span>
           <img class="icon" src="static/github.png">
-          <a href="">Github</a>
+          <a href="https://github.com/gmtfonseca" target="_blank">GitHub</a>
         </span>
         <span>
           <img class="icon" src="static/kaggle.png">
-          <a href="">Kaggle</a>
+          <a href="https://www.kaggle.com/gmtfonseca" target="_blank">Kaggle</a>
         </span>
 
       </section>
@@ -129,7 +134,7 @@
 
     <footer class="text-center">
       <span>
-        Hosted on GitHub.
+        Hosted on GitHub Pages.
 
       </span>
     </footer>
