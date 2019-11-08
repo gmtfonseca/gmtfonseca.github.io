@@ -26,7 +26,7 @@ h1 {
 
 nav {
   max-width: 55rem;
-  padding: 1rem;
+  padding: 1.2rem;
   display: flex;
   justify-content: space-between;
   border-bottom-style: solid;
@@ -41,7 +41,7 @@ nav #home {
 }
 
 .content {
-  padding: 2rem 0;
+  padding: 4rem;
   max-width: 35rem;
   display: flex;
   flex-direction: column;
@@ -52,11 +52,11 @@ nav #home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
 }
 
 #bio .description {
   line-height: 1.6;
+  padding: 0 3rem;
 }
 
 #profile {
@@ -67,7 +67,7 @@ nav #home {
 
 #social {
   max-width: 25rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   padding: 0 1rem;
@@ -79,7 +79,7 @@ nav #home {
 
 footer {
   max-width: 55rem;
-  padding: 1rem;
+  padding: 1.2rem;
   color: #81899D;
   font-size: 0.8rem;
   background-color: #f4f4f4;
