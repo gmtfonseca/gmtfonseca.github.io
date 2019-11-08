@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-a {
+nav a, .content a {
   color: black;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 nav {
-  max-width: 50rem;
+  max-width: 55rem;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -37,6 +37,7 @@ nav {
 
 nav #home {
   text-decoration: none;
+  letter-spacing: .05rem;
 }
 
 .content {
@@ -58,7 +59,7 @@ nav #home {
   line-height: 1.6;
 }
 
-#avatar {
+#profile {
   width: 9.5rem;
   height: auto;
   border-radius: 50%;
@@ -73,22 +74,17 @@ nav #home {
 }
 
 #social>span {
-  margin: 1rem;
+  margin: 0.7rem;
 }
 
 footer {
-  max-width: 50rem;
+  max-width: 55rem;
   padding: 1rem;
   color: #81899D;
   font-size: 0.8rem;
   background-color: #f4f4f4;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+footer a {
+  color: #81899D;
+}
