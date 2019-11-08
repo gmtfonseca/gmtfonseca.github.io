@@ -20,7 +20,7 @@ h1 {
   top: 2px;
 }
 
-#main>* {
+#main > * {
   margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ nav #home {
   padding: 0 1rem;
 }
 
-#social>span {
+#social span {
   margin: 0.7rem;
 }
 
