@@ -5,7 +5,11 @@ module.exports = {
       sans: ['Montserrat', 'sans-serif'],
     },
 
-    extend: {},
+    extend: {
+      lineHeight: {
+        11: '3rem',
+      },
+    },
   },
   plugins: [],
 }
